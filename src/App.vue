@@ -61,11 +61,11 @@ onMounted(async () => {
         :value="`To ${state.verb.base}`" 
         char-set="alphabet" 
         :duration="1000" 
-        class="mt-4 text-4xl md:text-8xl cursor-pointer font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-5xl justify-center"></Roller>
+        class="my-4 text-4xl md:text-8xl cursor-pointer font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-5xl justify-center"></Roller>
 
       <div 
         @click="state.expand = !state.expand"
-        class="flex flex-col justify-around min-h-[15rem] cursor-pointer">
+        class="flex flex-col justify-around min-h-[15rem] my-8 cursor-pointer">
         <TransitionGroup>
           <div class="" v-if="state.expand">
             <p class="text-xs font-semibold text-blue-600 dark:text-blue-400">Past simple</p>
