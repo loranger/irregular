@@ -1,0 +1,58 @@
+version: '3.6'
+services:
+  nginx:
+    image: nginx:stable-alpine
+    env_file:
+      - .env
+    volumes:
+      - project:/var/www
+      - ./.docker/nginx/nginx.conf:/etc/nginx/templates/default.conf.template
+    labels:
+      # Simple HTTP traefik support
+      - "traefik.http.routers.${APP_PROJECT}.rule=Host(`${APP_DOMAIN}`)"
+      - "traefik.http.services.${APP_PROJECT}-service.loadbalancer.server.port=80"
+      # # TLS support, http>https redirection middleware, //www.domain>//domain redirection middleware
+      # - "traefik.http.routers.${APP_PROJECT}.entrypoints=http"
+      # - "traefik.http.routers.${APP_PROJECT}.rule=Host(`www.${APP_DOMAIN}`,`${APP_DOMAIN}`)"
+      # - "traefik.http.routers.${APP_PROJECT}.middlewares=redirect-without-www@file,redirect-to-https@file"
+      # - "traefik.http.routers.${APP_PROJECT}-secure.entrypoints=https"
+      # - "traefik.http.routers.${APP_PROJECT}-secure.rule=Host(`www.${APP_DOMAIN}`,`${APP_DOMAIN}`)"
+      # - "traefik.http.routers.${APP_PROJECT}-secure.tls=true"
+      # - "traefik.http.routers.${APP_PROJECT}-secure.tls.certresolver=letsencrypt"
+      # - "traefik.http.routers.${APP_PROJECT}-secure.middlewares=redirect-without-www@file"
+      # # Enable https://crazymax.dev/diun/
+      # - "diun.enable=true"
+      # # Enable https://containrrr.dev/watchtower/
+      # - "com.centurylinklabs.watchtower.enable=true"
+  npm: &npm
+    image: node:alpine
+    working_dir: /var/www
+    volumes: [ project:/var/www ]
+    command: [ '-v' ]
+    entrypoint: [ 'npm' ]
+    profiles: [ "dev" ]
+  npx:
+    <<: *npm
+    command: [ '-v' ]
+    entrypoint: [ 'npx' ]
+    profiles: [ "dev" ]
+  vite:
+    <<: *npm
+    command: [ 'run', 'dev', '--', '--host' ]
+    # ports: [ "5678:5173" ]
+    profiles: [ "dev" ]
+    labels:
+      # Simple HTTP traefik support
+      - "traefik.http.routers.${APP_PROJECT}-vite.rule=Host(`dev.${APP_DOMAIN}`)"
+      - "traefik.http.services.${APP_PROJECT}-vite-service.loadbalancer.server.port=5173"
+
+volumes:
+  project:
+    driver_opts:
+      o: bind
+      type: none
+      device: $PWD
+
+networks:
+  default:
+      name: web

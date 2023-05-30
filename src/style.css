@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.roller-item ,
+.roller-item .roller-item__wrapper .roller-item__wrapper__list .roller-item__wrapper__list__item {
+  height: 1.2em !important;
+}

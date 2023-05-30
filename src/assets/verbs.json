@@ -1,0 +1,838 @@
+{
+  "verbs": [
+    {
+      "french": "survenir/surgir",
+      "base": "arise",
+      "past-simple": "arose",
+      "past-participle": "arisen"
+    },
+    {
+      "french": "se réveiller",
+      "base": "awake",
+      "past-simple": "awoke",
+      "past-participle": "awoken"
+    },
+    {
+      "french": "être",
+      "base": "be",
+      "past-simple": "was/were",
+      "past-participle": "been"
+    },
+    {
+      "french": "supporter",
+      "base": "bear",
+      "past-simple": "bore",
+      "past-participle": "born(e)"
+    },
+    {
+      "french": "battre",
+      "base": "beat",
+      "past-simple": "beat",
+      "past-participle": "beaten"
+    },
+    {
+      "french": "devenir",
+      "base": "become",
+      "past-simple": "became",
+      "past-participle": "become"
+    },
+    {
+      "french": "commencer",
+      "base": "begin",
+      "past-simple": "began",
+      "past-participle": "begun"
+    },
+    {
+      "french": "plier",
+      "base": "bend",
+      "past-simple": "bent",
+      "past-participle": "bent"
+    },
+    {
+      "french": "parier",
+      "base": "bet",
+      "past-simple": "bet",
+      "past-participle": "bet"
+    },
+    {
+      "french": "lier",
+      "base": "bind",
+      "past-simple": "bound",
+      "past-participle": "bound"
+    },
+    {
+      "french": "mordre",
+      "base": "bite",
+      "past-simple": "bit",
+      "past-participle": "bitten"
+    },
+    {
+      "french": "saigner",
+      "base": "bleed",
+      "past-simple": "bled",
+      "past-participle": "bled"
+    },
+    {
+      "french": "souffler",
+      "base": "blow",
+      "past-simple": "blew",
+      "past-participle": "blown"
+    },
+    {
+      "french": "rompre",
+      "base": "break",
+      "past-simple": "broke",
+      "past-participle": "broken"
+    },
+    {
+      "french": "élever/reproduire",
+      "base": "breed",
+      "past-simple": "bred",
+      "past-participle": "bred"
+    },
+    {
+      "french": "apporter",
+      "base": "bring",
+      "past-simple": "brought",
+      "past-participle": "brought"
+    },
+    {
+      "french": "diffuser",
+      "base": "broadcast",
+      "past-simple": "broadcast",
+      "past-participle": "broadcast"
+    },
+    {
+      "french": "construire",
+      "base": "build",
+      "past-simple": "built",
+      "past-participle": "built"
+    },
+    {
+      "french": "brûler",
+      "base": "burn",
+      "past-simple": "burnt/burned",
+      "past-participle": "burnt/burned"
+    },
+    {
+      "french": "éclater",
+      "base": "burst",
+      "past-simple": "burst",
+      "past-participle": "burst"
+    },
+    {
+      "french": "acheter",
+      "base": "buy",
+      "past-simple": "bought",
+      "past-participle": "bought"
+    },
+    {
+      "french": "pouvoir",
+      "base": "can",
+      "past-simple": "could",
+      "past-participle": "been able"
+    },
+    {
+      "french": "attraper",
+      "base": "catch",
+      "past-simple": "caught",
+      "past-participle": "caught"
+    },
+    {
+      "french": "choisir",
+      "base": "choose",
+      "past-simple": "chose",
+      "past-participle": "chosen"
+    },
+    {
+      "french": "s'accrocher",
+      "base": "cling",
+      "past-simple": "clung",
+      "past-participle": "clung"
+    },
+    {
+      "french": "venir",
+      "base": "come",
+      "past-simple": "came",
+      "past-participle": "come"
+    },
+    {
+      "french": "coûter",
+      "base": "cost",
+      "past-simple": "cost",
+      "past-participle": "cost"
+    },
+    {
+      "french": "ramper",
+      "base": "creep",
+      "past-simple": "crept",
+      "past-participle": "crept"
+    },
+    {
+      "french": "couper",
+      "base": "cut",
+      "past-simple": "cut",
+      "past-participle": "cut"
+    },
+    {
+      "french": "distribuer/commercer",
+      "base": "deal",
+      "past-simple": "dealt",
+      "past-participle": "dealt"
+    },
+    {
+      "french": "creuser",
+      "base": "dig",
+      "past-simple": "dug",
+      "past-participle": "dug"
+    },
+    {
+      "french": "faire",
+      "base": "do",
+      "past-simple": "did",
+      "past-participle": "done"
+    },
+    {
+      "french": "dessiner",
+      "base": "draw",
+      "past-simple": "drew",
+      "past-participle": "drawn"
+    },
+    {
+      "french": "rêver",
+      "base": "dream",
+      "past-simple": "dreamt/dreamed",
+      "past-participle": "dreamt/dreamed"
+    },
+    {
+      "french": "boire",
+      "base": "drink",
+      "past-simple": "drank",
+      "past-participle": "drunk"
+    },
+    {
+      "french": "conduire",
+      "base": "drive",
+      "past-simple": "drove",
+      "past-participle": "driven"
+    },
+    {
+      "french": "manger",
+      "base": "eat",
+      "past-simple": "ate",
+      "past-participle": "eaten"
+    },
+    {
+      "french": "tomber",
+      "base": "fall",
+      "past-simple": "fell",
+      "past-participle": "fallen"
+    },
+    {
+      "french": "nourrir",
+      "base": "feed",
+      "past-simple": "fed",
+      "past-participle": "fed"
+    },
+    {
+      "french": "ressentir",
+      "base": "feel",
+      "past-simple": "felt",
+      "past-participle": "felt"
+    },
+    {
+      "french": "combattre",
+      "base": "fight",
+      "past-simple": "fought",
+      "past-participle": "fought"
+    },
+    {
+      "french": "trouver",
+      "base": "find",
+      "past-simple": "found",
+      "past-participle": "found"
+    },
+    {
+      "french": "voler (dans les airs)",
+      "base": "fly",
+      "past-simple": "flew",
+      "past-participle": "flown"
+    },
+    {
+      "french": "interdire",
+      "base": "forbid",
+      "past-simple": "forbade",
+      "past-participle": "forbidden"
+    },
+    {
+      "french": "oublier",
+      "base": "forget",
+      "past-simple": "forgot",
+      "past-participle": "forgotten"
+    },
+    {
+      "french": "pardonner",
+      "base": "forgive",
+      "past-simple": "forgave",
+      "past-participle": "forgiven"
+    },
+    {
+      "french": "geler",
+      "base": "freeze",
+      "past-simple": "froze",
+      "past-participle": "frozen"
+    },
+    {
+      "french": "obtenir",
+      "base": "get",
+      "past-simple": "got",
+      "past-participle": "got"
+    },
+    {
+      "french": "donner",
+      "base": "give",
+      "past-simple": "gave",
+      "past-participle": "given"
+    },
+    {
+      "french": "aller",
+      "base": "go",
+      "past-simple": "went",
+      "past-participle": "gone"
+    },
+    {
+      "french": "broyer",
+      "base": "grind",
+      "past-simple": "ground",
+      "past-participle": "ground"
+    },
+    {
+      "french": "croître",
+      "base": "grow",
+      "past-simple": "grew",
+      "past-participle": "grown"
+    },
+    {
+      "french": "suspendre",
+      "base": "hang",
+      "past-simple": "hung",
+      "past-participle": "hung"
+    },
+    {
+      "french": "avoir",
+      "base": "have",
+      "past-simple": "had",
+      "past-participle": "had"
+    },
+    {
+      "french": "entendre",
+      "base": "hear",
+      "past-simple": "heard",
+      "past-participle": "heard"
+    },
+    {
+      "french": "cacher",
+      "base": "hide",
+      "past-simple": "hid",
+      "past-participle": "hidden"
+    },
+    {
+      "french": "atteindre/taper",
+      "base": "hit",
+      "past-simple": "hit",
+      "past-participle": "hit"
+    },
+    {
+      "french": "tenir",
+      "base": "hold",
+      "past-simple": "held",
+      "past-participle": "held"
+    },
+    {
+      "french": "blesser",
+      "base": "hurt",
+      "past-simple": "hurt",
+      "past-participle": "hurt"
+    },
+    {
+      "french": "conserver",
+      "base": "keep",
+      "past-simple": "kept",
+      "past-participle": "kept"
+    },
+    {
+      "french": "s'agenouiller",
+      "base": "kneel",
+      "past-simple": "knelt",
+      "past-participle": "knelt"
+    },
+    {
+      "french": "savoir",
+      "base": "know",
+      "past-simple": "knew",
+      "past-participle": "known"
+    },
+    {
+      "french": "déposer/étendre",
+      "base": "lay",
+      "past-simple": "laid",
+      "past-participle": "laid"
+    },
+    {
+      "french": "diriger",
+      "base": "lead",
+      "past-simple": "led",
+      "past-participle": "led"
+    },
+    {
+      "french": "appuyer/adosser",
+      "base": "lean",
+      "past-simple": "leant/leaned",
+      "past-participle": "leant/leaned"
+    },
+    {
+      "french": "apprendre",
+      "base": "learn",
+      "past-simple": "learnt/learned",
+      "past-participle": "learnt/learned"
+    },
+    {
+      "french": "quitter/partir",
+      "base": "leave",
+      "past-simple": "left",
+      "past-participle": "left"
+    },
+    {
+      "french": "prêter",
+      "base": "lent",
+      "past-simple": "lent",
+      "past-participle": "lent"
+    },
+    {
+      "french": "s'allonger",
+      "base": "lie (in bed)",
+      "past-simple": "lay",
+      "past-participle": "lain"
+    },
+    {
+      "french": "mentir",
+      "base": "lie (to not tell the truth)",
+      "past-simple": "lied",
+      "past-participle": "lied"
+    },
+    {
+      "french": "éclairer",
+      "base": "light",
+      "past-simple": "lit/lighted",
+      "past-participle": "lit/lighted"
+    },
+    {
+      "french": "perdre",
+      "base": "lose",
+      "past-simple": "lost",
+      "past-participle": "lost"
+    },
+    {
+      "french": "faire",
+      "base": "make",
+      "past-simple": "made",
+      "past-participle": "made"
+    },
+    {
+      "french": "pouvoir (possibilité)",
+      "base": "may",
+      "past-simple": "might",
+      "past-participle": "…"
+    },
+    {
+      "french": "signifier",
+      "base": "mean",
+      "past-simple": "meant",
+      "past-participle": "meant"
+    },
+    {
+      "french": "rencontrer",
+      "base": "meet",
+      "past-simple": "met",
+      "past-participle": "met"
+    },
+    {
+      "french": "tondre",
+      "base": "mow",
+      "past-simple": "mowed",
+      "past-participle": "mown/mowed"
+    },
+    {
+      "french": "devoir",
+      "base": "must",
+      "past-simple": "had to",
+      "past-participle": "…"
+    },
+    {
+      "french": "dépasser",
+      "base": "overtake",
+      "past-simple": "overtook",
+      "past-participle": "overtaken"
+    },
+    {
+      "french": "payer",
+      "base": "pay",
+      "past-simple": "paid",
+      "past-participle": "paid"
+    },
+    {
+      "french": "mettre",
+      "base": "put",
+      "past-simple": "put",
+      "past-participle": "put"
+    },
+    {
+      "french": "lire",
+      "base": "read",
+      "past-simple": "read",
+      "past-participle": "read"
+    },
+    {
+      "french": "chevaucher",
+      "base": "ride",
+      "past-simple": "rode",
+      "past-participle": "ridden"
+    },
+    {
+      "french": "sonner",
+      "base": "ring",
+      "past-simple": "rang",
+      "past-participle": "rung"
+    },
+    {
+      "french": "élever/remonter",
+      "base": "rise",
+      "past-simple": "rose",
+      "past-participle": "risen"
+    },
+    {
+      "french": "courir",
+      "base": "run",
+      "past-simple": "ran",
+      "past-participle": "run"
+    },
+    {
+      "french": "scier",
+      "base": "saw",
+      "past-simple": "sawed",
+      "past-participle": "sawn/sawed"
+    },
+    {
+      "french": "dire",
+      "base": "say",
+      "past-simple": "said",
+      "past-participle": "said"
+    },
+    {
+      "french": "voir",
+      "base": "see",
+      "past-simple": "saw",
+      "past-participle": "seen"
+    },
+    {
+      "french": "vendre",
+      "base": "sell",
+      "past-simple": "sold",
+      "past-participle": "sold"
+    },
+    {
+      "french": "envoyer",
+      "base": "send",
+      "past-simple": "sent",
+      "past-participle": "sent"
+    },
+    {
+      "french": "définir",
+      "base": "set",
+      "past-simple": "set",
+      "past-participle": "set"
+    },
+    {
+      "french": "coudre",
+      "base": "sew",
+      "past-simple": "sewed",
+      "past-participle": "sewn/sewed"
+    },
+    {
+      "french": "secouer",
+      "base": "shake",
+      "past-simple": "shook",
+      "past-participle": "shaken"
+    },
+    {
+      "french": "devoir (modal)",
+      "base": "shall",
+      "past-simple": "should",
+      "past-participle": "…"
+    },
+    {
+      "french": "se débarrasser",
+      "base": "shed",
+      "past-simple": "shed",
+      "past-participle": "shed"
+    },
+    {
+      "french": "briller",
+      "base": "shine",
+      "past-simple": "shone",
+      "past-participle": "shone"
+    },
+    {
+      "french": "tirer",
+      "base": "shoot",
+      "past-simple": "shot",
+      "past-participle": "shot"
+    },
+    {
+      "french": "montrer",
+      "base": "show",
+      "past-simple": "showed",
+      "past-participle": "shown"
+    },
+    {
+      "french": "rétrécir",
+      "base": "shrink",
+      "past-simple": "shrank",
+      "past-participle": "shrunk"
+    },
+    {
+      "french": "fermer",
+      "base": "shut",
+      "past-simple": "shut",
+      "past-participle": "shut"
+    },
+    {
+      "french": "chanter",
+      "base": "sing",
+      "past-simple": "sang",
+      "past-participle": "sung"
+    },
+    {
+      "french": "couler",
+      "base": "sink",
+      "past-simple": "sank",
+      "past-participle": "sunk"
+    },
+    {
+      "french": "asseoir",
+      "base": "sit",
+      "past-simple": "sat",
+      "past-participle": "sat"
+    },
+    {
+      "french": "dormir",
+      "base": "sleep",
+      "past-simple": "slept",
+      "past-participle": "slept"
+    },
+    {
+      "french": "glisser",
+      "base": "slide",
+      "past-simple": "slid",
+      "past-participle": "slid"
+    },
+    {
+      "french": "sentir",
+      "base": "smell",
+      "past-simple": "smelt",
+      "past-participle": "smelt"
+    },
+    {
+      "french": "semer",
+      "base": "sow",
+      "past-simple": "sowed",
+      "past-participle": "sown/sowed"
+    },
+    {
+      "french": "parler",
+      "base": "speak",
+      "past-simple": "spoke",
+      "past-participle": "spoken"
+    },
+    {
+      "french": "épeler",
+      "base": "spell",
+      "past-simple": "spelt/spelled",
+      "past-participle": "spelt/spelled"
+    },
+    {
+      "french": "dépenser",
+      "base": "spend",
+      "past-simple": "spent",
+      "past-participle": "spent"
+    },
+    {
+      "french": "déverser",
+      "base": "spill",
+      "past-simple": "spilt/spilled",
+      "past-participle": "spilt/spilled"
+    },
+    {
+      "french": "cracher",
+      "base": "spit",
+      "past-simple": "spat",
+      "past-participle": "spat"
+    },
+    {
+      "french": "étaler",
+      "base": "spread",
+      "past-simple": "spread",
+      "past-participle": "spread"
+    },
+    {
+      "french": "se tenir",
+      "base": "stand",
+      "past-simple": "stood",
+      "past-participle": "stood"
+    },
+    {
+      "french": "voler (objet)",
+      "base": "steal",
+      "past-simple": "stole",
+      "past-participle": "stolen"
+    },
+    {
+      "french": "coller",
+      "base": "stick",
+      "past-simple": "stuck",
+      "past-participle": "stuck"
+    },
+    {
+      "french": "piquer",
+      "base": "sting",
+      "past-simple": "stung",
+      "past-participle": "stung"
+    },
+    {
+      "french": "puer",
+      "base": "stink",
+      "past-simple": "stank",
+      "past-participle": "stunk"
+    },
+    {
+      "french": "frapper",
+      "base": "strike",
+      "past-simple": "struck",
+      "past-participle": "struck"
+    },
+    {
+      "french": "jurer",
+      "base": "swear",
+      "past-simple": "swore",
+      "past-participle": "sworn"
+    },
+    {
+      "french": "balayer",
+      "base": "sweep",
+      "past-simple": "swept",
+      "past-participle": "swept"
+    },
+    {
+      "french": "gonfler",
+      "base": "swell",
+      "past-simple": "swelled",
+      "past-participle": "swollen/swelled"
+    },
+    {
+      "french": "nager",
+      "base": "swim",
+      "past-simple": "swam",
+      "past-participle": "swum"
+    },
+    {
+      "french": "balancer",
+      "base": "swing",
+      "past-simple": "swung",
+      "past-participle": "swung"
+    },
+    {
+      "french": "prendre",
+      "base": "take",
+      "past-simple": "took",
+      "past-participle": "taken"
+    },
+    {
+      "french": "enseigner",
+      "base": "teach",
+      "past-simple": "taught",
+      "past-participle": "taught"
+    },
+    {
+      "french": "déchirer",
+      "base": "tear",
+      "past-simple": "tore",
+      "past-participle": "torn"
+    },
+    {
+      "french": "raconter",
+      "base": "tell",
+      "past-simple": "told",
+      "past-participle": "told"
+    },
+    {
+      "french": "penser",
+      "base": "think",
+      "past-simple": "thought",
+      "past-participle": "thought"
+    },
+    {
+      "french": "jeter",
+      "base": "throw",
+      "past-simple": "threw",
+      "past-participle": "thrown"
+    },
+    {
+      "french": "comprendre",
+      "base": "understand",
+      "past-simple": "understood",
+      "past-participle": "understood"
+    },
+    {
+      "french": "réveiller",
+      "base": "wake",
+      "past-simple": "woke",
+      "past-participle": "woken"
+    },
+    {
+      "french": "porter (vêtements)",
+      "base": "wear",
+      "past-simple": "wore",
+      "past-participle": "worn"
+    },
+    {
+      "french": "sangloter",
+      "base": "weep",
+      "past-simple": "wept",
+      "past-participle": "wept"
+    },
+    {
+      "french": "vouloir (modal)",
+      "base": "will",
+      "past-simple": "would",
+      "past-participle": "…"
+    },
+    {
+      "french": "gagner",
+      "base": "win",
+      "past-simple": "won",
+      "past-participle": "won"
+    },
+    {
+      "french": "enrouler",
+      "base": "wind",
+      "past-simple": "wound",
+      "past-participle": "wound"
+    },
+    {
+      "french": "écrire",
+      "base": "write",
+      "past-simple": "wrote",
+      "past-participle": "written"
+    }
+  ]
+}
