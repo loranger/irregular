@@ -51,26 +51,22 @@ onMounted(() => {
       <div 
         @click="state.expand = !state.expand"
         class="flex flex-col justify-around min-h-[15rem] cursor-pointer">
-        <Transition>
+        <TransitionGroup>
           <div class="" v-if="state.expand">
             <p class="text-xs font-semibold text-blue-600 dark:text-blue-400">Past simple</p>
             <h3 class="text-2xl dark:text-gray-100 font-semibold" v-text="capitalize(state.verb['past-simple'])"></h3>
           </div>
-        </Transition>
-
-        <Transition>
+ 
           <div class="" v-if="state.expand">
             <p class="text-xs font-semibold text-blue-600 dark:text-blue-400">Past participle</p>
             <h3 class="text-2xl dark:text-gray-100 font-semibold" v-text="capitalize(state.verb['past-participle'])"></h3>
           </div>
-        </Transition>
-
-        <Transition>
+          
           <div class="" v-if="state.expand">
             <p class="text-xs font-semibold text-blue-600 dark:text-blue-400">French 🇫🇷</p>
             <h3 class="text-2xl dark:text-gray-100 font-semibold" v-text="capitalize(state.verb.french)"></h3>
           </div>
-        </Transition>
+        </TransitionGroup>
       </div>
 
       <div class="mt-10 flex items-center justify-center gap-x-6">
@@ -95,9 +91,11 @@ onMounted(() => {
 
 @keyframes bounce-in {
   0% {
+    opacity: 0;
     transform: scale(0);
   }
   50% {
+    opacity: 1;
     transform: scale(1.25);
   }
   100% {
