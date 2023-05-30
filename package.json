@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "vue": "^3.2.47",
-    "vue-roller": "^2.1.0"
+    "vue-roller": "^2.1.0",
+    "vue-router": "^4.2.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",

@@ -1,10 +1,14 @@
-<script setup lang="ts">
+<script setup>
 
 import { reactive, onMounted, capitalize } from "vue";
+import { useRouter, useRoute } from 'vue-router';
 import { Roller } from "vue-roller";
 
 import "vue-roller/dist/style.css";
 import json from './assets/verbs.json';
+
+const router = useRouter();
+const route = useRoute();
 
 const state = reactive({
     verb: {
@@ -21,7 +25,7 @@ function randomVerb() {
   state.expand = false;
   var keys = Object.keys(state.verbs);
   state.verb = state.verbs[keys[ keys.length * Math.random() << 0]];
-  // console.log(state.verb)
+  router.push(`/${state.verb.base}`)
 }
 
 function capitalized(name) {
@@ -31,7 +35,18 @@ function capitalized(name) {
   return capitalizedFirst + rest;
 }
 
-onMounted(() => {
+onMounted(async () => {
+  await router.isReady();
+  if (route.params.verb) {
+    const found = state.verbs.find(element => element.base === route.params.verb);
+    if (found) {
+      state.verb = found;
+      state.expand = true;
+    } else {
+      window.location.href = '/';
+    }
+    return;
+  }
   randomVerb();
 })
 </script>
