@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  min-height: calc(100% + env(safe-area-inset-top));
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);  
+}
+
 .roller-item ,
 .roller-item .roller-item__wrapper .roller-item__wrapper__list .roller-item__wrapper__list__item {
   height: 1.2em !important;
