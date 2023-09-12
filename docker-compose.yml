@@ -24,6 +24,13 @@ services:
       # - "diun.enable=true"
       # # Enable https://containrrr.dev/watchtower/
       # - "com.centurylinklabs.watchtower.enable=true"
+  bun: &bun
+    image: oven/bun
+    working_dir: /var/www
+    volumes: [ project:/var/www ]
+    command: [ '-v' ]
+    entrypoint: [ 'bun' ]
+    profiles: [ "dev" ]
   npm: &npm
     image: node:alpine
     working_dir: /var/www
@@ -56,3 +63,4 @@ volumes:
 networks:
   default:
       name: web
+      external: true
