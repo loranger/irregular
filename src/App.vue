@@ -52,7 +52,7 @@ onMounted(async () => {
 </script>
 
 <template>
-  <main class="grid min-h-screen place-items-center">
+  <main class="grid h-full place-items-center">
     <div class="text-center">
       <p class="text-base font-semibold text-blue-600 dark:text-blue-400">Irregular verb</p>
       <Roller 
